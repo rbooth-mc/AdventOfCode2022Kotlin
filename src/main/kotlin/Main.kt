@@ -14,5 +14,8 @@ fun main(args: Array<String>) {
 //
 //    Day1B().findSumOfTopThree()
 //    Day2A().getTotalScore()
-    Day2B().getTotalScore()
+//    Day2B().getTotalScore()
+//    println(Day3A(InputFileReader("src/main/resources/day-3-input.txt").reader()).getPrioritySum())
+
+    println(Day3B(InputFileReader("src/main/resources/day-3-input.txt").reader()).getPrioritySum())
 }
